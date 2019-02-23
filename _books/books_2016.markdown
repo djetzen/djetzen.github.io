@@ -3,7 +3,6 @@ layout: page
 title: Books
 permalink: /books/2016
 ---
-
 # 2016
 
 * Die Blaue Liste - Wolfgang Schorlau 

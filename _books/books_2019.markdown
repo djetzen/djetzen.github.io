@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Books
-permalink: /books/2018
+permalink: /books/2019
 ---
+# 2019
+
 * Robert Seethaler – Das Feld 
 
 * Jennifer Clement – Gun Love 
@@ -20,3 +22,5 @@ permalink: /books/2018
 * Volker Kutscher - Märzgefallene 
 
 * Volker Kutscher - Lunapark 
+
+* to be continued for this year
