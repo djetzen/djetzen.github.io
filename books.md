@@ -2,6 +2,7 @@
 layout: page
 title: Books
 permalink: /books/
+order: 1
 ---
 
 Here is a list of books, which I have read over the past couple of years. The list starts in 2016, as this was the first time where I was taking notes on which book I read and when I do this.

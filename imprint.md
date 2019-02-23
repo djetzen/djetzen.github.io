@@ -2,6 +2,7 @@
 layout: page
 title: Impressum
 permalink: /imprint/
+order: 3
 ---
 
 # Impressum
