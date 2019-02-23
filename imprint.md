@@ -6,8 +6,8 @@ permalink: /imprint/
 
 # Impressum
 ## Angaben gemäß § 5 TMG
-Dominik Jetzen
-Martin-Luther-King-Straße 5
+Dominik Jetzen <br />
+Martin-Luther-King-Straße 5 <br />
 35394 Gießen
 ## Kontakt
 E-Mail:  dominikjetzenblog@outlook.de
