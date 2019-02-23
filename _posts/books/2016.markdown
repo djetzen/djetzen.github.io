@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2016-Books
-permalink: /books/2016
+permalink: /books/2016/
 ---
 
 * Die Blaue Liste - Wolfgang Schorlau 
