@@ -4,68 +4,68 @@ title: Books
 permalink: /books/2018
 ---
 # 2018 
-* Daniel Kehlmann – Tyll 
+1. Daniel Kehlmann – Tyll 
 
-* Marc Elsberg – Helix 
+1. Marc Elsberg – Helix 
 
-* Don Winslow – Corruption 
+1. Don Winslow – Corruption 
 
-* Lutz Seiler – Kruso (abgebrochen vor Langeweile) 
+1. Lutz Seiler – Kruso (abgebrochen vor Langeweile) 
 
-* Benedict Wells - Fast genial 
+1. Benedict Wells - Fast genial 
 
-* Marc Uwe Kling – Qualityland 
+1. Marc Uwe Kling – Qualityland 
 
-* Benedict Wells - Becks letzter Sommer 
+1. Benedict Wells - Becks letzter Sommer 
 
-* Volker Kutscher – Der nasse Fisch 
+1. Volker Kutscher – Der nasse Fisch 
 
-* Volker Kutscher – Der Stumme Tod 
+1. Volker Kutscher – Der Stumme Tod 
 
-* Bill Clegg - Porträt eines süchtigen als junger Mann 
+1. Bill Clegg - Porträt eines süchtigen als junger Mann 
 
-* Michael Lewis – Flash Boys 
+1. Michael Lewis – Flash Boys 
 
-* Stephen King - Das Leben und das Schreiben 
+1. Stephen King - Das Leben und das Schreiben 
 
-* Cixin Liu – Die Drei Sonnen  
+1. Cixin Liu – Die Drei Sonnen  
 
-* Cixin Liu – Der dunkle Wald 
+1. Cixin Liu – Der dunkle Wald 
 
-* Justin Cronin – Spiegelstadt 
+1. Justin Cronin – Spiegelstadt 
 
-* Volker Kutscher – Goldstein 
+1. Volker Kutscher – Goldstein 
 
-* Volker Kutscher – Die Akte Vaterland 
+1. Volker Kutscher – Die Akte Vaterland 
 
-* Benedict Wells – Vom Ende der Einsamkeit 
+1. Benedict Wells – Vom Ende der Einsamkeit 
 
-* Ferdinand von Schirach – Strafe 
+1. Ferdinand von Schirach – Strafe 
 
-* Haruki Murakami – Die Ermordung des Commendatore I 
+1. Haruki Murakami – Die Ermordung des Commendatore I 
 
-* Haruki Murakami – Die Ermordung des Commendatore II 
+1. Haruki Murakami – Die Ermordung des Commendatore II 
 
-* Jaron Lanier – Zehn Gründe warum du deine Social Media Accounts sofort löschen musst 
+1. Jaron Lanier – Zehn Gründe warum du deine Social Media Accounts sofort löschen musst 
 
-* Robert Louis Stevenson – Die Schatzinsel 
+1. Robert Louis Stevenson – Die Schatzinsel 
 
-* Joseph Conrad – Herz der Finsternis 
+1. Joseph Conrad – Herz der Finsternis 
 
-* Mary Shelley - Frankenstein 
+1. Mary Shelley - Frankenstein 
 
-* James Joyce – Ulysses 
+1. James Joyce – Ulysses 
 
-* F. Scott Fitzgerald – Der große Gatsby 
+1. F. Scott Fitzgerald – Der große Gatsby 
 
-* Juli Zeh – Corpus Delicti 
+1. Juli Zeh – Corpus Delicti 
 
-* Benedict Wells – Spinner 
+1. Benedict Wells – Spinner 
 
-* David Schalko – Schwere Knochen 
+1. David Schalko – Schwere Knochen 
 
-* Jules Verne – In 80 Tagen um die Welt 
+1. Jules Verne – In 80 Tagen um die Welt 
 
-* Nino Haratischwili – Das achte Leben (Für Brilka) 
+1. Nino Haratischwili – Das achte Leben (Für Brilka) 
 
-* Robert Seethaler – Das Feld 
+1. Robert Seethaler – Das Feld 

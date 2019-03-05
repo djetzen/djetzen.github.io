@@ -5,22 +5,26 @@ permalink: /books/2019
 ---
 # 2019
 
-* Robert Seethaler – Das Feld 
+1. Robert Seethaler – Das Feld 
 
-* Jennifer Clement – Gun Love 
+1. Jennifer Clement – Gun Love 
 
-* H. G. Wells – Krieg der Welten 
+1. H. G. Wells – Krieg der Welten 
 
-* Robert Seethaler – Der Trafikant 
+1. Robert Seethaler – Der Trafikant 
 
-* Andreas Eschbach – NSA 
+1. Andreas Eschbach – NSA 
 
-* Philipp K. Dick – Blade Runner 
+1. Philipp K. Dick – Blade Runner 
 
-* Jon Krakauer – In eisige Höhen 
+1. Jon Krakauer – In eisige Höhen 
 
-* Volker Kutscher - Märzgefallene 
+1. Volker Kutscher - Märzgefallene 
 
-* Volker Kutscher - Lunapark 
+1. Volker Kutscher - Lunapark 
 
-* to be continued for this year
+1. Volker Kutscher - Marlow
+
+1. Olga Grjasnowa - Gott ist nicht schüchtern
+
+1. to be continued for this year
