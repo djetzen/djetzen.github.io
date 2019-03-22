@@ -27,4 +27,8 @@ permalink: /books/2019
 
 1. Olga Grjasnowa - Gott ist nicht schüchtern
 
+1. Fernando Aramburu - Patria
+
+1. Hideo Yokoyama - 64
+
 1. to be continued for this year
