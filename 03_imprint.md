@@ -11,7 +11,6 @@ Dominik Jetzen <br />
 Martin-Luther-King-Straße 5 <br />
 35394 Gießen
 ## Kontakt
-E-Mail:  dominikjetzenblog@outlook.de
 
 ## Haftung für Inhalte
 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
