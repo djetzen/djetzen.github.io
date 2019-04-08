@@ -33,4 +33,4 @@ permalink: /books/2019
 
 1. Cixin Liu - Jenseits der Zeit
 
-1. to be continued for this year
+1. tbc this year
