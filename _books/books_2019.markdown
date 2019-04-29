@@ -33,4 +33,6 @@ permalink: /books/2019
 
 1. Cixin Liu - Jenseits der Zeit
 
+1. Karen Duve - Fräulein Nettes kurzer Sommer
+
 1. tbc this year
