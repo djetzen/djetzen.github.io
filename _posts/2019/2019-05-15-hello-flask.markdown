@@ -9,13 +9,13 @@ During the last days I worked with Flask [http://flask.pocoo.org/](http://flask.
 
 The files needed for this task are `requirements.txt`, the `Dockerfile` and the `hello.py`.
 
-## Requirements.txt
+## [Requirements.txt](https://github.com/djetzen/hello_flask/blob/master/requirements.txt)
 In the requirements.txt we list all the dependencies we want to use. In our case this is only `flask`. The syntax for this is, `plugin==version`. So here we are using the (as of now) latest version of flask, which is 1.0.2. We are using this file for configuring and installing the plugins to our python version inside the Docker container with pip.
 
-## hello.py
+## [hello.py](https://github.com/djetzen/hello_flask/blob/master/hello.py)
 The `hello.py` is quite simple. We import in the first line Flask and create in line 3 an app. Endpoints are registered using the `@app.route` annotation. Inside the brackets the path is mentioned as well as the type of it. If nothing given, it is a GET-Endpoint. Otherwise we add to the brackets something like `methods=['POST']`. Inside our route function we simply return the string saying `Hello Flask`. At the end of the file we create a main method, which starts the Flask app.
 
-## Dockerfile
+## [Dockerfile](https://github.com/djetzen/hello_flask/blob/master/Dockerfile)
 The Dockerfile inherits the Python 3.7.3 alpine image (latest version at the time of this post). In the next lines we copy the `requirements.txt` and the `hello.py` file to the root direction of this folder. Currently the python version inside the Docker container does not have the necessary Flask plugin installed. Therefore we make a `RUN` command and install every plugin in the specific version as given in the `requirements.txt`. As our Flask application is running on the Port 5000, we expose this port and call our application using the `CMD["python", "hello.py"]`.
 
 ## Building and running
