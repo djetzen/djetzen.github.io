@@ -5,7 +5,7 @@ date:   2019-05-15
 categories: jekyll update
 ---
 # Overview
-During the last days I worked with Flask (http://flask.pocoo.org/) and created an application. In this post I wanted to share how to implement a simple Hello-World application with a REST-Endpoint and how we can deploy it using Docker. The sources can be found here: https://github.com/djetzen/hello_flask
+During the last days I worked with Flask [http://flask.pocoo.org/] and created an application. In this post I wanted to share how to implement a simple Hello-World application with a REST-Endpoint and how we can deploy it using Docker. The sources can be found here: [https://github.com/djetzen/hello_flask]
 
 The files needed for this task are `requirements.txt`, the `Dockerfile` and the `hello.py`.
 
