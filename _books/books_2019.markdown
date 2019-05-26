@@ -35,4 +35,6 @@ permalink: /books/2019
 
 1. Karen Duve - Fräulein Nettes kurzer Sommer
 
+1. Chuck Palahniuk - Fight Club
+
 1. tbc this year
