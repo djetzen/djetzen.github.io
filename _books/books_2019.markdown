@@ -37,4 +37,8 @@ permalink: /books/2019
 
 1. Chuck Palahniuk - Fight Club
 
+1. Charles Bukowski - Das schlimmste kommt noch oder Fast eine Jugend
+
+1. Wilhelm Genazino - Ein Regenschirm für diesen Tag
+
 1. tbc this year
