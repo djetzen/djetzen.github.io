@@ -41,4 +41,8 @@ permalink: /books/2019
 
 1. Wilhelm Genazino - Ein Regenschirm für diesen Tag
 
+1. Ulrich Wickert - Medien: Macht und Verantwortung
+
+1. Martin Sonneborn - Herr Sonneborn geht nach Brüssel: Abenteuer im Europaparlament
+
 1. tbc this year
