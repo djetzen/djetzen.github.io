@@ -45,4 +45,10 @@ permalink: /books/2019
 
 1. Martin Sonneborn - Herr Sonneborn geht nach Brüssel: Abenteuer im Europaparlament
 
+1. Oscar Wilde - Das Bildnis des Dorian Gray
+
+1. Kazuo Ishiguro - Der begrabene Riese
+
+1. Günter Grass - Die Blechtrommel
+
 1. tbc this year
