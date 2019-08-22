@@ -51,4 +51,10 @@ permalink: /books/2019
 
 1. Günter Grass - Die Blechtrommel
 
+1. Bastian Sick - Der Dativ ist dem Genitiv sein Tod
+
+1. David Foster Wallace - This is Water
+
+1. Wolf Haas - Auferstehung der Toten
+
 1. tbc this year
