@@ -57,4 +57,8 @@ permalink: /books/2019
 
 1. Wolf Haas - Auferstehung der Toten
 
+1. Wolf Haas - Der Knochenmann
+
+1. Wolf Haas - Komm süßer Tod
+
 1. tbc this year
