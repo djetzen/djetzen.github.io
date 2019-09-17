@@ -2,7 +2,7 @@
 layout: post
 title:  "Flashing my Pixel 3a"
 date:   2019-09-17
-categories: jekyll update
+categories: privacy tech
 ---
 # Generelles
 In letzter Zeit habe ich mir sehr viele Gedanken über das Thema Privacy gemacht. Nach der Löschung einiger Social Media Konten (Instagram, Facebook, Last.fm etc.) war der nächste Schritt, dass ich mein Handy flashen wollte um auf das Android Open Source Project (AOSP, [https://source.android.com/](https://source.android.com/) umzusteigen. Zur Erklärung sei gesagt, dass Android generell erst einmal ein Open Source Projekt ist. Google stellt dann ein Image bereit, welches neben AOSP auch verschiedene Google Dienste, die sogenannten Play Dienste beinhaltet. Zu finden sind diese beispielsweise hier: [https://play.google.com/store/apps/details?id=com.google.android.gms](https://play.google.com/store/apps/details?id=com.google.android.gms).

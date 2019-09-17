@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to my Blog!"
 date:   2019-02-22 
-categories: jekyll update
+categories:
 ---
 I always wanted to do a blog about the stuff which I come across the whole day and want to share with others. 
 In this blog I will most likely cover different topics:

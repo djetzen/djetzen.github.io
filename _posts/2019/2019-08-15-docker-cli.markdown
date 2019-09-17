@@ -2,7 +2,7 @@
 layout: post
 title:  "Unbekannte Docker Commands"
 date:   2019-08-15
-categories: jekyll update
+categories: programming
 ---
 # Überblick
 Benutzt man die Docker-CLI (Command Line Interface), so denkt man doch oft an die gängigen Begriffe. Viele wissen, wie man Container startet, Images baut oder sich eine Liste von beidem anzeigen lässt. Für viele Anwendungsfälle reicht auch genau das aus. Beim Blättern in der Dokumentation der CLI bin ich jedoch über einige weitere Befehle gestolpert, die ich hier vorstellen möchte.

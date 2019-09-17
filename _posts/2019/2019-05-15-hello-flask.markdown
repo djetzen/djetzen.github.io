@@ -2,7 +2,7 @@
 layout: post
 title:  "Writing a simple flask app and deploying it with docker"
 date:   2019-05-15
-categories: jekyll update
+categories: programming
 ---
 # Overview
 During the last days I worked with Flask [http://flask.pocoo.org/](http://flask.pocoo.org/) and created an application. In this post I wanted to share how to implement a simple Hello-World application with a REST-Endpoint and how we can deploy it using Docker. The sources can be found here: [https://github.com/djetzen/hello_flask](https://github.com/djetzen/hello_flask)
