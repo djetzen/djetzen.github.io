@@ -16,7 +16,7 @@
 title: Dominiks Blog
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  This blog will cover various parts. Whether it is the books I have read, technical stuff I want to share with others or some programming stuff.
+  Programming, Technical, Privacy and books.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  djetzen
