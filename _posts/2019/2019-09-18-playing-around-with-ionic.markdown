@@ -15,3 +15,5 @@ In the background there is an sqlite database where the entries are saved. I dec
 
 ## Last words
 The start was very easy and I managed to set up and run the app after a short time. The design and the layout of the tests are for sure improvable, but as a small project and to explore ionic, angular and typescript for the first time it is fine. And the most important point: the app is working and is used nearly every day by me and is giving me some nice informations.
+
+the sources can be found [here](https://github.com/djetzen/bike-savings)
