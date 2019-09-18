@@ -10,6 +10,7 @@ order: 5
 Dominik Jetzen <br />
 Martin-Luther-King-Straße 5 <br />
 35394 Gießen
+Email: djetzenblog@posteo.de
 ## Kontakt
 
 ## Haftung für Inhalte
