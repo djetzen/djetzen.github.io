@@ -61,8 +61,10 @@ permalink: /books/2019
 
 1. Wolf Haas - Komm süßer Tod
 
-1. Cormac McCarth - Die Straße
+1. Cormac McCarthy - Die Straße
 
 1. Haruki Murakami - Mister Aufziehvogel
+
+1. Jonathan Safran Foer - Wir sind das Klima
 
 1. tbc this year
