@@ -67,4 +67,6 @@ permalink: /books/2019
 
 1. Jonathan Safran Foer - Wir sind das Klima
 
+1. Maxim Gorki - Nachtasyl
+
 1. tbc this year
