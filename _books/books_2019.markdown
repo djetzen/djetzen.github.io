@@ -69,4 +69,6 @@ permalink: /books/2019
 
 1. Maxim Gorki - Nachtasyl
 
+1. Jonathan Safran Foer - Tiere essen
+
 1. tbc this year
