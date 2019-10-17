@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Pi Hole"
+date:   2019-10-17
+categories: privacy
+---
+
+## Overview
+Recently I set up my raspberry pi 4 and installed a distribution and a docker client on it. One container I wanted to show you is the [pi hole](https://pi-hole.net/). Pi Hole is a service which filters a lot of ads on the DNS basis. This means, that all of the ads from the providers on the blacklist are filtered before arriving on your device. The docker container is running in my local network on port 80 and 443 and acts as my standard DNS server whenever it is possible.
+
+## Advantages
+The advantages are mentioned on the page and are in detail:
+1. Network wide protection without installing additional ad blockers
+1. In-App ads are blocked
+1. The network performance improves, as the ads are blocked before they are downloaded.
+1. You can see statistics of all the ads blocked.
+
+## Pitfalls
+As I have an android device, unfortunately it is not possible to set the DNS server to an IP by default. There are some apps with which I can do this, but I need to investigate it further. 
+Also there is a slight "problem" with my Mac. I can configure the DNS server there, but as soon as I switch to another WiFi, the DNS server is not available as it is running only in my WiFi at home. This leads to the fact, that the pages are not resolved due to the missing DNS server. Therefore I have created two environments on my Mac, one is "Home" and the other one is the "Standard" profile which I switch according to the environment I am in.
+
+## Docker Compose
+The compose file can be found [here](https://github.com/pi-hole/docker-pi-hole) in the official documentation. I did not alter the file at all, so feel free starting you own pi hole as well.
