@@ -73,4 +73,6 @@ permalink: /books/2019
 
 1. Oliver Sacks - The Mind´s Eye
 
+1. Bret Easton Ellis - American Psycho
+
 1. tbc this year
