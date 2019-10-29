@@ -75,4 +75,6 @@ permalink: /books/2019
 
 1. Bret Easton Ellis - American Psycho
 
+1. Bela B. Felsenheimer - Scharnow
+
 1. tbc this year
