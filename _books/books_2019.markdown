@@ -77,4 +77,6 @@ permalink: /books/2019
 
 1. Bela B. Felsenheimer - Scharnow
 
+1. George Pelecanos - Prisoners
+
 1. tbc this year
