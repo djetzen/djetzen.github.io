@@ -79,4 +79,8 @@ permalink: /books/2019
 
 1. George Pelecanos - Prisoners
 
+1. David Wallace-Wells - Unbewohnbare Erde
+
+1. Daniel Kahnemann - Schnelles Denken, langsames Denken
+
 1. tbc this year
