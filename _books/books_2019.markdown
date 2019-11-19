@@ -81,6 +81,6 @@ permalink: /books/2019
 
 1. David Wallace-Wells - Unbewohnbare Erde
 
-1. Daniel Kahnemann - Schnelles Denken, langsames Denken
+1. Daniel Kahneman - Schnelles Denken, langsames Denken
 
 1. tbc this year
