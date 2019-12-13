@@ -83,4 +83,6 @@ permalink: /books/2019
 
 1. Daniel Kahneman - Schnelles Denken, langsames Denken
 
+1. John Strelecky - Das Café am Rande der Welt
+
 1. tbc this year
