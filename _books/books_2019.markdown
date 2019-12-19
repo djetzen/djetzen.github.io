@@ -85,4 +85,6 @@ permalink: /books/2019
 
 1. John Strelecky - Das Café am Rande der Welt
 
+1. Ian McGuire - Nordwasser
+
 1. tbc this year
