@@ -12,3 +12,5 @@ Mein Name ist Dominik Jetzen, geboren 1987 in der Wetterau, über mehrere Umwege
 In meiner Freizeit lese ich Bücher, spiele Videospiele oder gehe joggen. Außerdem bin ich öfter beim Fußball (meistens in Frankfurt) oder auf Konzerten (Punk Rock, Alternative) anzutreffen.
 
 Auf dem Blog sollte es vermutlich die meiste Zeit über verschiedene Themen zur Programmierung oder anderen technikbezogenen Themen gehen. Außerdem führe ich eine Liste mit Büchern, die ich in den letzten Jahren gelesen habe. <a href="/books"> Hier die Liste. </a>
+
+Ein weiteres Thema, was mich in letzter Zeit sehr umtreibt ist das Thema "Privacy". Durch immer neue Datenschutzskandale und Datenlecks ist meine Aufmerksamkeit hierhin gelenkt worden, so dass ich mich eingelesen habe und auch einige Aktionen daraus für mich persönlich abgeleitet habe. 
