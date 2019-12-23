@@ -8,7 +8,7 @@ categories: privacy
 After a long time without having an idea what to write, it came to my mind to do a recap of which actions I took this year to increase at least a little bit my privacy. This year was the first year, where I consequently had a look at it, so therefore there are a lot of low hanging fruits.
 
 ## General stuff
-- Moved my emailadress to [posteo] (https://www.posteo.de)
+- Moved my emailadress to [posteo](https://www.posteo.de)
 - Moved away from uploading all pictures to the managed cloud and rather upload it to my nextcloud hosted on my raspberry pi
 - Host my contacts also on the nextcloud
 - started using an alternative search engine to google, where privacy is first
