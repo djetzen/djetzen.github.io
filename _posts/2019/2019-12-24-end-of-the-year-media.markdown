@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "Personal media roundup"
 date:   2019-12-24
 ---
 This is an unordered list of all the media I enjoyed this year.
@@ -11,6 +11,8 @@ I read a lot of books throughout this year, the most in a year, since I track th
 - Martin Sonneborn - Herr Sonneborn geht nach Brüssel: Abenteuer im Europaparlament
 - Haruki Murakami - Mister Aufziehvogel
 - Daniel Kahneman - Schnelles Denken, langsames Denken
+
+I also really enjoyed a lot reading the [Blaetter für deutsche und internationale Politik](https://blaetter.de/)
 ## Games
 Some games I really liked this year are Death Stranding, What remains of Edith Finch, God of War, Yoshis Crafted World, Cuphead, Little Nightmares, Sekiro (even though I did not beat it) and Octopath Traveler. The most interesting game for me for sure is Death Stranding, as I am a huge fan of the Metal Gear series and like most of the games Hideo Kojima did.
 ## Music
