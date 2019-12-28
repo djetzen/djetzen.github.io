@@ -87,4 +87,6 @@ permalink: /books/2019
 
 1. Ian McGuire - Nordwasser
 
+1. Saša Stanišić - Herkunft
+
 1. tbc this year
