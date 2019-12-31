@@ -89,4 +89,4 @@ permalink: /books/2019
 
 1. Saša Stanišić - Herkunft
 
-1. tbc this year
+1. Saša Stanišić - Wie der Soldat das Grammofon repariert

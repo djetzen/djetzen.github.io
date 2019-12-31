@@ -12,4 +12,5 @@ If I do not find good summaries for the book I read (e.g. Wikipedia), then I tak
 [2016](_books/books_2016.markdown) <br />
 [2017](_books/books_2017.markdown) <br />
 [2018](_books/books_2018.markdown) <br />
-[2019](_books/books_2019.markdown)
+[2019](_books/books_2019.markdown) <br />
+[2020](_books/books_2020.markdown)
