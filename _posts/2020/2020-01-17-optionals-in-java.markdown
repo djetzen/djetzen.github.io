@@ -24,7 +24,10 @@ We will write a first test, which tests, that the method `getStreet()` does what
 void streetIsReturned() {
     Person p = new Person();
     p.setName("Dominik");
-    p.setLocation(Location.builder().street(Street.builder().streetName("Main Street").houseNumber(5).build()).zipCode("00000").city("Frankfurt").build());
+    p.setLocation(
+        Location.builder()
+        .street(Street.builder().streetName("Main Street").houseNumber(5).build())
+        .zipCode("00000").city("Frankfurt").build());
     assertEquals("Main Street",p.getStreet());
 }
 ``` 
