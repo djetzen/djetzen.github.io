@@ -85,5 +85,5 @@ public String getStreet() {
 
 In my opinion this is way more readable than the many nullchecks you normally have. 
 
-The sources can be found here on [Github](https://github.com/djetzen/java_examples).
+The sources can be found here on [Github](https://github.com/djetzen/java_examples/tree/master/optionals).
 
