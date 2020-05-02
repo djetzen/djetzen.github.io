@@ -9,3 +9,12 @@ permalink: /books/2020
 1. Josh Bazell - Schneller als der Tod
 1. Hanya Yanagihara - Ein wenig Leben
 1. Hans Fallada - Jeder stirbt für sich allein
+1. Sasa Stanisic - Vor dem Fest 
+1. Liao Yiwu - Fräulein Hallo und der Bauernkaiser
+1. Edward Snowden - Permanent Record
+1. Margaret Atwood - Der Report der Magd
+1. John Irving - Gottes Werk und Teufels Beitrag
+
+
+
+
