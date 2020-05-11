@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-order: 4
+order: 5
 ---
 Die Idee zu diesem Blog kam, als ich immer wieder über andere Blogs gestolpert bin und irgendwie einen Ort gesucht habe an dem ich meine Gedanken zu verschiedenen Themen aufschreiben kann. Als mir ein Freund dann davon erzählte, dass er mit GitHub und Jekyll seinen eigenen Blog aufgesetzt hat, nahm ich mir die Zeit um es ihm gleich zu tun.
 
