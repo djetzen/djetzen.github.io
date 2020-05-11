@@ -10,7 +10,6 @@ Schon seit meiner Jugend begleiten mich Videospiele. Angefangen hat alles mit de
 Da ich mich auch sehr für die Videospielkultur interessiere, habe ich mir überlegt ab und an über verschiedene Spiele zu schreiben, die vielleicht auch schon etwas älter sein können.
 
 Hier ist eine Liste mit Artikeln zum Thema Videospiele zu finden, die ich bisher verfasst habe:
-Here is the list of articles, which I wrote about programming.
 
 {% for post in site.categories.videogames %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
