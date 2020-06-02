@@ -14,6 +14,8 @@ permalink: /books/2020
 1. Edward Snowden - Permanent Record
 1. Margaret Atwood - Der Report der Magd
 1. John Irving - Gottes Werk und Teufels Beitrag
+1. Thomas Mann - Der Tod in Venedig
+1. Ewald Frie - Die Geschichte der Welt
 
 
 
