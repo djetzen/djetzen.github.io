@@ -16,6 +16,7 @@ permalink: /books/2020
 1. John Irving - Gottes Werk und Teufels Beitrag
 1. Thomas Mann - Der Tod in Venedig
 1. Ewald Frie - Die Geschichte der Welt
+1. Tom Hombergs - Get your hands dirty on clean architecture
 
 
 
