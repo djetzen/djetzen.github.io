@@ -17,6 +17,8 @@ permalink: /books/2020
 1. Thomas Mann - Der Tod in Venedig
 1. Ewald Frie - Die Geschichte der Welt
 1. Tom Hombergs - Get your hands dirty on clean architecture
+1. Tobias Escher - Der Schlüssel zum Spiel
+1. Bruce Springsteen - Born to run
 
 
 
