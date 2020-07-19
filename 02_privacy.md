@@ -2,7 +2,7 @@
 layout: page
 title: Privacy
 permalink: /privacy/
-order: 3
+order: 2
 ---
 These are the articles I wrote about some privacy parts.
 
