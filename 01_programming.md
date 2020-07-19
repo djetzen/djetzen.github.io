@@ -2,7 +2,7 @@
 layout: page
 title: Programming
 permalink: /programming/
-order: 2
+order: 1
 ---
 
 Here is the list of articles, which I wrote about programming.
