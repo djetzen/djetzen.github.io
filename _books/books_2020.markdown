@@ -19,7 +19,8 @@ permalink: /books/2020
 1. Tom Hombergs - Get your hands dirty on clean architecture
 1. Tobias Escher - Der Schlüssel zum Spiel
 1. Bruce Springsteen - Born to run
-
+1. Camilo Sánchez - Die Witwe der Brüder van Gogh
+1. Juli Zeh - Neujahr
 
 
 
