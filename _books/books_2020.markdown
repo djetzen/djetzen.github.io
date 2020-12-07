@@ -21,6 +21,9 @@ permalink: /books/2020
 1. Bruce Springsteen - Born to run
 1. Camilo Sánchez - Die Witwe der Brüder van Gogh
 1. Juli Zeh - Neujahr
+1. Ferdinand von Schirach - Kaffee und Zigaretten
+1. Ahmet Ümit - Nacht und Nebel
+1. Volker Kutscher - Olympia
 
 
 
