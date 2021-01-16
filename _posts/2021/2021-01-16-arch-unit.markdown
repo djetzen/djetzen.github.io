@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "Testen der Architektur mit Arch-Unit"
+date:   2021-01-16
+categories: programming
+---
+# Motivation
+Oft ist es so, dass man sich an einer bestimmten Architektur in einem Projekt orientiert oder sich selbst Regeln gibt in der Art `Jeder Controller soll dies auch im Namen tragen`. Genauso schnell passiert es aber, dass man diese Regeln absichtlich oder unabsichtlich verletzt. In diesem kurzen Post möchte ich das Framework [ArchUnit](https://www.archunit.org/) vorstellen, mit dem man diese Regeln kurz und einfach in UnitTests gießen kann. Diese werden bei jedem Build mit ausgeführt und stellen sicher, dass man die Regeln nicht verletzen kann.
+Ich werde die Beispiele anhand einer minimalen und nicht funktionalen SpringBoot-Anwendung erklären.
+# Umsetzung
+## Klassen von Tests ausschließen
+Vorab sollten wir das Framework so konfigurieren, dass es nur die für uns relevanten Klassen überprüft. Da es verschiedene Klassen gibt, die auf alle Packages zugreifen, zum Beispiel die Konfigurations-Klassen zum Zusammenbauen der Beans, müssen diese ausgeschlossen werden. Hierzu kann man folgendes Snippet verwenden: 
+```
+    private ImportOption ignoreConfigurations = location -> !location.contains("/configuration/");
+    private JavaClasses classesOfProjectWithoutConfiguration = new ClassFileImporter()
+            .withImportOption(ignoreConfigurations)
+            .importPackages(BASE_PACKAGE+"..");
+```
+Die ImportOption gibt an, welche Orte wir ausschließen wollen. In diesem Fall also alle Klassen, die in einem Ordner `configuration` liegen. Ich habe mich dafür entschieden, dass alle Konfigurationen in diesem Package liegen sollen.
+Anschließend dient diese `ImportOption` als Input der Definition welche Klassen überhaupt überprüft werden sollen. Hier gebe ich explizit alle Packages unterhalb eines bestimmten `BASE_PACKAGE` an. Wir weden in jedem der folgenden Tests diese Variable per `check`-Methode anhängen.
+
+## Test auf passende Namen
+Fangen wir mit zwei einfachen Tests an: 
+
+1.) Die Namen der Klassen, die im Package `ports` liegen, sollen entweder auf `Port` oder `UseCase` enden.
+
+Hierfür gibt es per [Fluent-Api](https://en.wikipedia.org/wiki/Fluent_interface) die Methoden `resideInAPackage` und `haveNameMatching`. 
+Das Beispiel sieht so aus:
+```
+    @Test
+    void classesInPortsPackageShouldHavePortOrUseCaseInName() {
+        classes().that().resideInAPackage("..port..")
+                .should().haveNameMatching(".*Port")
+                .orShould().haveNameMatching(".*UseCase").check(classFileImporter);
+    }
+```
+2.) Die Namen einer Klasse, die mit `@RestController` annotiert ist, soll immer auf den Namen `Controller` enden. 
+Hier bauen wir den Test sehr ähnlich auf, nutzen aber die Methode `areAnnotatedWith`. Der Test hierfür sieht so aus:
+```
+    @Test
+    void classesAnnotatedWithRestControllerAnnotationShouldHaveControllerInName() {
+        classes().that().areAnnotatedWith(RestController.class)
+                .should().haveNameMatching(".*Controller").check(classFileImporter);
+    }
+```
+
+## Test auf Technologieunabhängigkeit des Domain Packages
+Das Domain-Package sollte stets frei von konkreten Technologien sein. In SpringBoot-Projekten kann es jedoch schnell passieren, dass eine Annotation aus Spring an die Klassen wandert. Hier könnte man als Beispiel eine Überprüfung einführen, dass keine Klasse im Package `domain` mit einer Annotation aus dem Package `org.spring` markiert wird. 
+Da dies nicht so einfach zu erreichen ist, schreiben wir uns ein `DescribedPredicate`, mit dem wir jede mögliche `JavaAnnotation` überprüfen auf den Anfang ihres vollqualifizierten Namen.
+Unser Test sieht inklusive der `DescribedPredicate` so aus:
+```
+    @Test
+    void domainPackageShouldHaveNoDependenciesToSpring() {
+        DescribedPredicate<JavaAnnotation> springAnnotationPredicate = new DescribedPredicate<>("Spring filter") {
+            @Override
+            public boolean apply(JavaAnnotation input) {
+                return input.getType().getName().startsWith("org.spring");
+            }
+        };
+
+        classes().that().resideInAPackage("..domain..").should()
+                .notBeAnnotatedWith(springAnnotationPredicate).check(classFileImporter);
+    }
+```
+## Test auf Einhaltung der Hexagonalen Architektur
+Für diesen Test orientiere ich mich im Groben an dem Aufbau der hexagonalen Architektur, wie sie im Buch `Get your hands dirty on clean architecture` von Tom Hombergs beschrieben. Wir haben hier die Vorgabe, dass die Ports und UseCases im `application`-Package liegen, unsere Domänenklassen und -services in einem Package `domain` und unsere Adapter jeweils in Subpackages unterhalb eines `adapter`-Package.
+ArchUnit bietet für die Hexagonale Architektur schon eine vorgefertigte Methode, die man nur mit den richtigen Werten befüllen muss. Eine weitere Erklärung findet sich [hier](https://www.archunit.org/userguide/html/000_Index.html#_onion_architecture). Dort ist auch erklärt, welche Constraints es zwischen den Packages gibt und wann der Test fehlschlägt.
+Unser Test für diese Architektur sieht so aus:
+```
+    @Test
+    void onionArchitecturePackageStructureIsFine() {
+        onionArchitecture()
+                .domainModels(BASE_PACKAGE+".domain.models..")
+                .domainServices(BASE_PACKAGE+".domain.services..")
+                .applicationServices(BASE_PACKAGE+"..application..")
+                .adapter("persistence", BASE_PACKAGE+".adapter.out.persistence..")
+                .adapter("rest", BASE_PACKAGE+".adapter.in.web..")
+                .withOptionalLayers(true)
+                .check(classesOfProjectWithoutConfiguration);
+    }
+```
+
+## Fazit
+Ich denke das Framework kann eine nette Unterstützung sein um sichtbar zu machen, wann selbst aufgestellte Regeln verletzt werden. Allerdings sollte man das Framework - wie so vieles - mit Umsicht verwenden. Zu viele Regeln könnten dazu führen, dass man in seiner Freiheit als Entwickler sehr eingeschränkt ist oder ständig Tests anpassen muss. 
+
+Den Quellcode inklusive der oben genannten Beispiele habe ich auf [Github](https://github.com/djetzen/java_examples/tree/master/optionals) hochgeladen. Die Beispiele findet man im Submodul `archunit`.
