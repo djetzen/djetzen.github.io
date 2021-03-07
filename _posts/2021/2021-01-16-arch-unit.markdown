@@ -83,4 +83,4 @@ Unser Test für diese Architektur sieht so aus:
 ## Fazit
 Ich denke, das Framework kann eine nette Unterstützung sein um sichtbar zu machen, wann selbst aufgestellte Regeln verletzt werden. Allerdings sollte man das Framework - wie so vieles - mit Umsicht verwenden. Zu viele Regeln könnten dazu führen, dass man in seiner Freiheit als Entwickler sehr eingeschränkt ist oder ständig Tests anpassen muss. 
 
-Den Quellcode inklusive der oben genannten Beispiele habe ich auf [Github](https://github.com/djetzen/java_examples/tree/master/optionals) hochgeladen. Die Beispiele findet man im Submodul `archunit`.
+Den Quellcode inklusive der oben genannten Beispiele habe ich auf [Github](https://github.com/djetzen/java_examples/tree/master/archunit) hochgeladen. Die Beispiele findet man im Submodul `archunit`.
