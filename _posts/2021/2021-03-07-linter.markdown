@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Linter in Github-Actions"
+date:   2021-03-07
+categories: programming
+---
+# Linter in Github Actions einfügen
+In einem der letzten privaten Projekte hatte ich verschiedene Dateien im Projekt, die nicht direkt Java/Kotlin-Sourcecode waren. Da ich schon öfter beobachtet habe, dass in diesen Dateien kein einheitlicher Code-Standard vorherrscht und mir auch schnell Fehler passieren - was gerade bei yaml- oder json-Dateien das Lesen sehr schwer macht - wollte ich hierfür verschiedene [Linter](https://de.wikipedia.org/wiki/Lint_(Programmierwerkzeug)) einfügen, die einen gemeinsamen Code-Standard erzwingen. Neben den Lintern für json- und yaml-Dateien gibt es noch `hadolint`, welches die Dockerfiles lintet. In weiteren Projekt habe ich auch schon [shellcheck](https://github.com/koalaman/shellcheck) verwendet, auf welches ich hier aber nicht genauer eingehen werde, da ich keine Shellskripte im Projekt habe. 
+
+## Wie konfiguriert man die Linter in die Github-Actions?
+Generell gibt es viele verschiedene Komponenten, die man in Pipelines verwenden kann und von Gitlab bereitgestellt an dieser [Stelle](https://gitlab.com/pipeline-components).
+Zu jedem dieser Projekt gibt es auch einen Docker-Container, die man im [Docker-Hub](https://hub.docker.com/u/pipelinecomponents) finden kann: 
+
+Diese Container kann man in seine Pipeline einbinden und verwenden. Im Folgenden werde ich für die drei Linter `jsonLint`, `yamllint` und `hadolint` eine sehr kurze Vorstellung machen.
+## Wie konfiguriert man die Linter?
+Ich werde hier nicht im Detail darauf eingehen, wie man eine Github-Action aufsetzt. Eine kurze Beispieldatei mit allen hier verwendeten Lintern kann man [hier](https://github.com/djetzen/java_examples/blob/master/.github/workflows/maven.yml) sehen.
+
+Einen beispielhaften Lauf kann man [hier](https://github.com/djetzen/java_examples/actions/runs/629383955) am Pull Request sehen, in den Checks laufen nun die Linter mit. Um einen erfolgreichen Hadolint-Lauf hinzubekommen habe ich eine Dockerfile beigelegt, wie ich sie oftmals in Springboot-Projekten verwende. Diese Dockerfile ist in dem verlinkten Repository aber nicht sinnvoll und ist rein für die Demonstration von Hadolint beigelegt worden.
+
+### Hadolint
+Hadolint ist ein Tool um die Dockerfile zu linten. Der Aufruf erfolgt ganz simpel über `hadolint Dockerfile`, wenn man den richtigen Container gewählt hat und die Dockerfile im root-Verzeichnis liegt. Die Regeln hierfür kann man auf der entsprechenden [Github-Seite](https://github.com/hadolint/hadolint) finden.
+### Jsonlint
+jsonlint lintet die json-Dateien im Projekt. Das Dockerimage kann man einbinden und dann gemäß der Dokumentation folgenden Befehl aufrufen um alle json-Dateien zu linten: `find . -not -path './.git/*' -name '*.json' -type f -print0 | parallel --will-cite -k -0 -n1 jsonlint -q`. 
+### yamllint
+Yamllint sorgt dafür, dass die eingecheckten `.yml`- bzw. `.yaml`-Dateien korrekt gelintet werden. Um eine individuelle Konfiguration vorzunehmen kann man eine Config-Datei anlegen und beim Aufruf von yamllint mittels `-c` mitgeben. Im Beispielprojekt habe ich eine Datei in `config/yamllint` gelegt und schalte dort die Validierung aus, dass eine Zeile maximal 80 Zeichen enthalten darf. Die Regeln für yamllint kann man [hier](https://yamllint.readthedocs.io/en/stable/rules.html) einsehen.
+## Sollte ich wirklich alles linten?
+Ich glaube dazu gehen die Meinungen oft auseinander, ich habe mich bisher aber immer gegen die Linter für den eigentlichen Sourcecode entschieden. Da in den meisten Projekten auch immer Sonarqube verfügbar war, hat man einen nicht unerheblichen Teil der Regeln auch schon dort abgedeckt. Auch bei Sonarqube gibt es die Möglichkeit die Pipeline failen zu lassen, wenn ein bestimmtes Qualitygate gerissen wird. Für Opensource-Projekte steht zudem eine kostenlose Integration mit Sonarqube zur Verfügung.
+
+Viel Spaß beim Einbauen der Linter!
