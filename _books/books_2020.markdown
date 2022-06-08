@@ -24,6 +24,8 @@ permalink: /books/2020
 1. Ferdinand von Schirach - Kaffee und Zigaretten
 1. Ahmet Ümit - Nacht und Nebel
 1. Volker Kutscher - Olympia
+1. David Markson - Wittgensteins Mätresse
+1. Karsten Dusse - Achtsam morden
 
 
 
