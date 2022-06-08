@@ -37,14 +37,14 @@ Da ich mittlerweile berufstätig bin und mehr Geld für mein Hobby ausgeben kann
 Erstaunt war ich über die Aufpreise für Linkshänder-Gitarren, obwohl diese im jeweiligen Preissegment nur in wenigen Schritten händisch gefertigt werden. 
 Nach einiger Überlegung und Recherche kam ich dazu, dass ich gerne eine Gitarre haben würde, die nur für mich gebaut wurde und nach meinen Vorstellungen aussieht.
 Nach einigem Überlegen und einem Gespräch vor Ort stimmte ich mit Jozsi alles weitere ab und nach einiger Wartezeit war sie dann auch schon fertig. Und hier ist sie, meine eigene Gitarre gebaut von [Jozsi Lak](https://jozsi-lak.de/).
-![Front](/_posts/2022/media/rocker_front.jpeg)
-![Back](/_posts/2022/media/rocker_back.jpeg)
+![Front](/_posts/2022/media/rocker_front.jpeg){:class="img-responsive"}
+![Back](/_posts/2022/media/rocker_back.jpeg){:class="img-responsive"}
 
 Bestehend aus Korina-Holz, mit einem Humbucker am Steg und einem P90 am Hals ist alles dran was ich möchte. Auf meinen Wunsch in matt blau lackiert bin ich rundum zufrieden und spiele seitdem deutlich mehr.
 
 ### Westerngitarre - Lag Tramontane TL70DCE
 Nach einer E-Gitarre entschloss ich mich nach reiflicher Überlegung auch noch eine Westerngitarre zu kaufen. Da ich hier allerdings eher im Einsteiger-Preissegment bleiben wollte, entschied ich mich nach längerem Probespielen und Anhören wenn andere spielen (leider bleiben Linkshändergitarren weiterhin ein Nischenprodukt) zum Kauf dieser Gitarre. Auch hier bin ich rundum zufrieden und für akkustischere Stücke greife ich gerne auf diese Gitarre zurück. Zur Wahrheit gehört aber auch, dass sie doch deutlich seltener verwendet wird als meine E-Gitarre. Mit einem extra Tonabnehmer aber auch einem aktiven Anteil um die Phase einzustellen oder die Gitarre schnell zu stimmen ist auch hier alles vorhanden was ich benötige.
-![Front](/_posts/2022/media/lag_front.jpeg)
+![Front](/_posts/2022/media/lag_front.jpeg){:class="img-responsive"}
 
 ### Amp - Boss Katana 100 MK1
 Anfang 2021 suchte ich nach einem neuen Amp. Da ich vorher ich einen kleinen Vox Amp besaß (der nun sein Dasein im Keller fristet), den ich mir 2009 zu meiner Gitarre dazu gekauft hatte, erschien mir das als das erste sinnvolle Upgrade. Der kleine Vox Amp war sehr in die Jahre gekommen und man hörte auch deutlich, dass es sich um einen Einsteiger Amp handelt. Da ich gerne zusätzlich ein paar mehr Effekte wollte, habe ich auf Kleinanzeigen Ausschau gehalten, welche Amps in meiner Umgebung verkauft werden und bin zügig fündig geworden. 
