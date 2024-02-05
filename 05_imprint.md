@@ -7,9 +7,6 @@ order: 5
 
 # Impressum
 ## Angaben gemäß § 5 TMG
-Dominik Jetzen <br />
-Martin-Luther-King-Straße 5 <br />
-35394 Gießen <br />
 Email: djetzenblog@posteo.de
 ## Kontakt
 
